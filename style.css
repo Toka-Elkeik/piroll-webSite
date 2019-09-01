@@ -267,3 +267,44 @@ textarea {
 #footer a:hover {
   color: #10c9c3;
 }
+
+@media screen and (max-width: 1024px) {
+  .home {
+    text-align: center;
+    justify-content: center;
+    margin: 10% 20%;
+  }
+  .work,
+  .work-info,
+  .gallary,
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+  .work-info {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home {
+    text-align: center;
+    justify-content: center;
+    margin: 10% 20%;
+  }
+  .work,
+  .work-info,
+  .gallary,
+  .services,
+  .logos {
+    display: flex;
+    flex-direction: column;
+  }
+  .work-info {
+    padding: 10px;
+  }
+  .logos {
+    width: 50%;
+    align-items: center;
+    margin: 3% auto;
+  }
+}
